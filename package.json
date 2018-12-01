@@ -1,0 +1,23 @@
+{
+  "name": "shadows-of-adam-mod-builder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lTyl/Shadows-of-Adam-Mod-Builder.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lTyl/Shadows-of-Adam-Mod-Builder/issues"
+  },
+  "homepage": "https://github.com/lTyl/Shadows-of-Adam-Mod-Builder#readme",
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "web-bundle": "^1.1.4"
+  }
+}

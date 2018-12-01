@@ -3,6 +3,10 @@
 This is a mod for the turn-based RPG [Shadows of Adam](https://store.steampowered.com/app/506510/Shadows_of_Adam).
 This mod builds a .pak file which can be used to modify the original Shadows of Adam game.
 
+
+## Installation
+`npm install shadows-of-adam-mod-builder --save`
+
 ## Building
 To build a new Shadows of Adam mod, run `node index.js`.
 

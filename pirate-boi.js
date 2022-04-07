@@ -28,7 +28,11 @@
 		}
 
 		for (let key in ig.Image.cache) {
-			if (key === 'media/graphics/sprites/npc_pirate_captain_scaled@4x.png' || key === 'media/graphics/sprites/npc_pirate_scaled@4x.png' || ig.Image.cache[key].isPirate) {
+			if (
+				key.indexOf(npcKeyword) < 0
+				|| ig.Image.cache[key].isPirate
+				|| key === 'media/graphics/sprites/npc_pirate_captain_scaled@4x.png'
+				|| key === 'media/graphics/sprites/npc_pirate_scaled@4x.png') {
 				continue;
 			}
 			var pirateBoi = getRandomPirateBoi();
